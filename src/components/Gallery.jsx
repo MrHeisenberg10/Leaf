@@ -2,12 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const photos = [
-    '/WhatsApp Image 2025-04-23 at 22.18.24_3f6abcc9.jpg',
-    '/1000093390.jpg',
-    '/1000190062.jpg',
-    '/1000190074.jpg',
-    '/1000190060.jpg',
-    '/1000190063.jpg',
+    'WhatsApp Image 2025-04-23 at 22.18.24_3f6abcc9.jpg',
+    '1000093390.jpg',
+    '1000190062.jpg',
+    '1000190074.jpg',
+    '1000190060.jpg',
+    '1000190063.jpg',
 ];
 
 const Gallery = () => {
