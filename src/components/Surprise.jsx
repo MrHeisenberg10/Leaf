@@ -25,7 +25,7 @@ const Surprise = () => {
             IMPORTANT: Replace 'song.mp3' with your actual audio filename.
             Place the audio file in the 'public' folder of your project.
         */}
-            <audio ref={audioRef} src='/audio (3).mp3' loop />
+            <audio ref={audioRef} src='audio (3).mp3' loop />
 
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -34,7 +34,7 @@ const Surprise = () => {
                 viewport={{ once: true }}
             >
                 <p className="text-xl md:text-2xl text-gray-500 mb-8 font-serif italic">
-                  ata khali parynt aalich ahes tar thamb 2 min 
+                    ata khali parynt aalich ahes tar thamb 2 min
                 </p>
 
                 <motion.button
@@ -59,7 +59,7 @@ const Surprise = () => {
                     )}
                 </motion.button>
                 <p className="text-sm text-love-300 mt-6 animate-pulse-slow">
-                            Awaz vadhavvv        </p>
+                    Awaz vadhavvv        </p>
             </motion.div>
         </section>
     );
